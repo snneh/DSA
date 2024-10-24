@@ -12,7 +12,11 @@ signed main() {
     new_stack.push(8);
     new_stack.push(1);
 
-    cout << new_stack.top();
+    new_stack.top();
+    
+
+    //* stack elements cant be accessed directly. they need to be out 
+    //* of the stack to be able to access them.
 
 
     return 0;
